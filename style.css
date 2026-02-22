@@ -1,10 +1,43 @@
-
-<head>
-  <title>Home</title>
-  <link href="home.html" rel="stylesheet">
-
-    background-color: lightblue;
-   <h2 style="color:rgb(117, 17, 72); font-size:25px;">HI everyone!</h2>
-  
+/*CSS file for styling the website*/
+/* Website Styling */
  
+body {
+    background-color: lightblue;
+  margin: 0;
+padding: 10px;
+font-style: italic;
+font-family:Georgia, 'Times New Roman', Times, serif; }
+
+    h1, h2, h3, h4 {
+   color:rgb(17, 107, 117); }
+
+   /* Navigation Bar Styling */
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  background-color: royalblue;
+  color:aqua;
+  padding: 10px 20px;
+  border-radius: 25px;
+margin-right: 10px;
+font-weight: bold;
+}
+
+nav a:hover {
+  background-color: purple;
+color: white;
+}
+
+.subjects-title {
+background-color: royalblue;
+  color:aqua;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.gallery-image1 {
+}
+
   
