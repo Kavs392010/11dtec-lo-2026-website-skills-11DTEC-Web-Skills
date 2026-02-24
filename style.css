@@ -1,24 +1,46 @@
 /*CSS file for styling the website*/
 /* Website Styling */
  
+/*Body Styling*/
 body {
-    background-color: lightblue;
+    background-color: rgb(200, 180, 255);
   margin: 0;
 padding: 10px;
 font-style: italic;
 font-family:Georgia, 'Times New Roman', Times, serif; }
 
-    h1, h2, h3, h4 {
-   color:rgb(17, 107, 117); }
+/*Heading Styling*/
+    .heading {
+   color:purple; }
+
+   .header{
+   text-align:center;
+  font-size:34px;
+  padding: 25px;
+  border-radius:20px;
+  background-color:whitesmoke;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  color:purple;
+}
+
+/*Paragraph Styling*/
+.paragraph {
+  font-size:18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(184, 140, 24);
+}
 
    /* Navigation Bar Styling */
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 nav a {
-  background-color: royalblue;
-  color:aqua;
+  background-color: rgb(239, 189, 24);
+  color:purple;
   padding: 10px 20px;
   border-radius: 25px;
 margin-right: 10px;
@@ -30,14 +52,58 @@ nav a:hover {
 color: white;
 }
 
+/*Subject styling*/
 .subjects-title {
-background-color: royalblue;
-  color:aqua;
-  padding: 10px 20px;
+background-color: rgb(239, 189, 24);
+  color:purple;
+  padding: 10px 10px;
   border-radius: 20px;
+  margin-right:10px;
+  display:inline-block;
 }
 
+/*Gallery Styling*/
 .gallery-image1 {
+  width: 150px;
+  height:200px;
+  border-left:auto;
+  border-radius: 20px;
+  margin-right:10px;
 }
+
+.gallery-image2 {
+  width: 150px;
+  height:200px;
+  border-left:auto;
+  border-radius: 20px;
+  margin-right:10px;
+}
+
+.gallery-image3 {
+  width:150px;
+  height: 200px;
+  border-left:auto;
+  border-radius: 20px;
+  margin-right:10px;
+}
+
+/*Grid styling*/
+ .container {
+  display: grid;
+  grid-template-columns: auto auto;
+ grid-template-rows:auto auto;
+  background-color: whitesmoke;
+  padding: 10px;
+ }
+
+.grid {
+  background-color: rgb(239, 189, 24);
+  border: 1px solid black;
+  border-radius:25px;
+  padding: 20px;
+}
+
+
+
 
   
