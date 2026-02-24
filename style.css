@@ -10,7 +10,7 @@ font-style: italic;
 font-family:Georgia, 'Times New Roman', Times, serif; }
 
 /*Heading Styling*/
-    .heading {
+    .sub-heading {
    color:purple; }
 
    .header{
@@ -30,7 +30,14 @@ font-family:Georgia, 'Times New Roman', Times, serif; }
 .paragraph {
   font-size:18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:rgb(184, 140, 24);
+  color:rgb(64, 79, 7);
+  background-color:rgb(255, 255, 255);
+}
+
+.paragraph1 {
+  font-size:18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(87, 87, 87);
 }
 
    /* Navigation Bar Styling */
