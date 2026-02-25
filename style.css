@@ -29,6 +29,8 @@ font-family:Georgia, 'Times New Roman', Times, serif; }
 /*Paragraph Styling*/
 .main {
 background-color:whitesmoke;
+padding-left: 10px;
+padding-bottom: 10px;
 }
 
 .paragraph {
