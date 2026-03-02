@@ -52,6 +52,7 @@ border-radius: 20px;
    /* Navigation Bar Styling */
 nav {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 nav a {
@@ -64,7 +65,7 @@ font-weight: bold;
 }
 
 nav a:hover {
-  background-color: purple;
+background-color: purple;
 color: white;
 }
 
